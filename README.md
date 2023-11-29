@@ -5,17 +5,17 @@ The decorator pattern is a design pattern that allows behavior to be added to an
 In this example, we will create a coffee shop application that allows you to order coffee and add ingredients to it. The decorator pattern will be used to add ingredients to the coffee.
 
 ![img.png](src/main/java/ma/enset/captures/img.png)
-En plus de votre café vous puvez également demandaer plusieur ingrédients comme: 
-* du lait
-* du chocolat
-* du sirop
-* de la vanille
-* du caramel
+In addition to your coffee you can also request several ingredients such as:
+* milk
+* chocolate
+* syrup
+* vanilla
+* caramel
 * etc.
 
-Starbuzz Coffee, facturant chacun de ces suppléments, a besoin d'un moyen de les intégrer dans le système de commande.
+Starbuzz Coffee, charging for each of these extras, needs a way to integrate them into the ordering system.
 
-Le décorateur permet d'ajouter des fonctionnalités à un objet sans modifier son code source.
+The decorator allows you to add functionality to an object without modifying its source code. It is an alternative to subclassing where you modify the class itself. The decorator pattern is used extensively in Java IO classes, such as FileReader, BufferedReader, or InputStreamReader, to add new functionality.
 
 ### Class Diagram
 ![img_2.png](src/main/java/ma/enset/captures/img_2.png)
