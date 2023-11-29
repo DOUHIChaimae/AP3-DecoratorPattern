@@ -4,7 +4,7 @@ The decorator pattern is a design pattern that allows behavior to be added to an
 ### Application
 In this example, we will create a coffee shop application that allows you to order coffee and add ingredients to it. The decorator pattern will be used to add ingredients to the coffee.
 
-![img.png](img.png)
+![img.png](src/main/java/ma/enset/captures/img.png)
 En plus de votre café vous puvez également demandaer plusieur ingrédients comme: 
 * du lait
 * du chocolat
@@ -18,7 +18,7 @@ Starbuzz Coffee, facturant chacun de ces suppléments, a besoin d'un moyen de le
 Le décorateur permet d'ajouter des fonctionnalités à un objet sans modifier son code source.
 
 ### Class Diagram
-![img_2.png](img_2.png)
+![img_2.png](src/main/java/ma/enset/captures/img_2.png)
 
 ### Implementation
 #### Boisson class
@@ -141,7 +141,7 @@ public class Test {
 }
 ```
 #### Output
-![img_3.png](img_3.png)
+![img_3.png](src/main/java/ma/enset/captures/img_3.png)
 
 ### Conclusion
 The decorator is a structural design pattern that allows you to attach new responsibilities to an object by providing a flexible way to add it at runtime. The decorator allows you to add functionality to an object without modifying its source code.
